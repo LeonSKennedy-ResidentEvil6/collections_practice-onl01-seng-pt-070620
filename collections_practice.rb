@@ -45,6 +45,7 @@ def add_s(words)
         new_words << word + "s"
       elsif (index ==1)
       new_words << word
+      end 
     end 
     return new_words
 end 
