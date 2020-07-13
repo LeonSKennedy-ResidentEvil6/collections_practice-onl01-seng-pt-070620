@@ -43,6 +43,7 @@ def add_s(words)
     words.each_with_index do |word,index| 
       if(index != 1)
         new_words << word + "s"
+        
       end 
     end 
     return new_words
